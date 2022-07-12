@@ -1,9 +1,9 @@
 {
   "name": "libtestone",
   "version": "0.1.0",
-	"source": "src/lib.package.js",
+  "source": "src/lib.package.js",
   "main": "./dist/lib.umd.js",
-	"module": "./dist/lib.module.js",
+  "module": "./dist/lib.module.js",
   "scripts": {
     "build": "microbundle -f umd,esm --jsxImportSource react"
   },
